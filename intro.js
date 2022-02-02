@@ -106,17 +106,61 @@
 
 // --------------13 er namta-------------
 
-function multiPication (number){
-    // var number = 13;
-    for(var i = 1; i <= 10; i++ ){
-        var result = i * number;
-        var formula = number +  "*" + i +  "=" + result;
-        console.log(formula);
-    }
-   return number;
+// function multiPication (number){
+   
+//     for(var i = 1; i <= 10; i++ ){
+//         var result = i * number;
+//         var formula = number +  "*" + i +  "=" + result;
+//         console.log(formula);
+//     }
+//    return number;
     
-}
-// multiPication(2);
-const namta = multiPication(3);
+// }
 
-console.log (namta);
+// const namta = multiPication(3);
+
+// console.log (namta);
+
+
+// ------------ largest--------
+
+
+
+// function largestNum (num1 , num2 , num3){
+
+//     if (num1 >num2 && num1 > num3){
+//         return num1;
+//     }
+//     else if (num2 > num1 && num2 > num3){
+//         return num2;
+//     }
+//     else{
+//         return num3;
+//     }
+    
+// }
+//  const putNum =  largestNum (45 , 52 ,25);
+// console.log(putNum);
+
+// -------array sum-------
+// let number = [3 , 1 , 20 ,3];
+// let sum = 0;
+// for ( i=0; i< number.length; i++){
+//     let elements = number[i];
+//     sum = sum + elements;
+// }
+
+// console.log(sum);
+
+
+var sentence = "I am hardworking. I am determined. I will be a web developer.";
+var count = 0;
+for(var i = 0; i < sentence.length; i++){
+  var letter = sentence[i];
+  if(letter=='a'){
+    count++;
+  }
+}
+console.log(count)
+
+
